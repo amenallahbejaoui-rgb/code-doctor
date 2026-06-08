@@ -1,0 +1,36 @@
+.dev-perf-container {
+  padding: 2rem;
+}
+.dev-perf-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.dev-perf-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  min-width: 250px;
+  max-width: 300px;
+  flex: 1 1 250px;
+}
+.dev-perf-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #1976d2;
+}
+.dev-perf-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dev-perf-card li {
+  margin-bottom: 0.5rem;
+  font-size: 0.98rem;
+}
+.dev-perf-loading, .dev-perf-error {
+  padding: 2rem;
+  text-align: center;
+  color: #888;
+}

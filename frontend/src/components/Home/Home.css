@@ -1,0 +1,164 @@
+.waydev-home {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f8fa;
+  min-height: 100vh;
+}
+
+.waydev-header {
+  background: linear-gradient(120deg, #2d3748 60%, #4fd1c5 100%);
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.waydev-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px 0 48px;
+}
+
+.waydev-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.waydev-navbar nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.waydev-navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.waydev-navbar a:hover {
+  color: #4fd1c5;
+}
+
+.waydev-login {
+  font-weight: 500;
+}
+
+.waydev-cta {
+  background: #4fd1c5;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.waydev-cta:hover {
+  background: #38b2ac;
+}
+
+.waydev-hero {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.waydev-hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.waydev-hero p {
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+  color: #e2e8f0;
+}
+
+.waydev-features {
+  background: #fff;
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
+
+.waydev-features h2 {
+  font-size: 2.2rem;
+  margin-bottom: 36px;
+  color: #2d3748;
+}
+
+.waydev-features-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.waydev-feature-card {
+  background: #f7fafc;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+  padding: 32px 28px;
+  width: 300px;
+  min-height: 240px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.18s;
+}
+
+.waydev-feature-card:hover {
+  box-shadow: 0 6px 24px rgba(44,62,80,0.16);
+  transform: translateY(-6px) scale(1.03);
+}
+
+.waydev-feature-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.waydev-feature-card h3 {
+  color: #319795;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.waydev-feature-card p {
+  color: #4a5568;
+  font-size: 1.05rem;
+}
+
+.waydev-footer {
+  background: #2d3748;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0 12px 0;
+  margin-top: 40px;
+  font-size: 1rem;
+}
+
+.waydev-insight-card {
+  transition: transform 0.18s, box-shadow 0.18s;
+  min-height: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.waydev-insight-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 12px 36px rgba(124,58,237,0.18);
+}
